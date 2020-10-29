@@ -1,0 +1,95 @@
+.container {
+    margin: 0 10% 0 10%;
+}
+body {
+    font-family: "Poppins", sans-serif;
+
+    .background {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("../images/bg-intro-desktop.png");
+        min-height: 100vh;
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 100vh;
+            .description {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: hsl(300, 100, 99);
+                h1 {
+                    padding-bottom: 1em;
+                }
+            }
+
+            .sign-up-form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .try-free-button {
+                    background-color: rgb(93, 84, 163);
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    width: 100%;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-bottom: 2em;
+                }
+                .form-background {
+                    width: 100%;
+                    border-radius: 5px;
+                    background-color: white;
+                    margin: 20px;
+                    border: none;
+                    display: inline-block;
+
+                    form {
+                        margin: 1em;
+                        .input {
+                            input {
+                                width: 100%;
+                                padding: 12px 20px;
+                                margin: 8px 0;
+                                display: inline-block;
+                                border: 1px solid #ccc;
+                                border-radius: 4px;
+                                box-sizing: border-box;
+                            }
+                        }
+                        input[type="submit"] {
+                            width: 100%;
+                            padding: 12px 20px;
+                            margin: 8px 0;
+                            display: inline-block;
+                            border: 1px solid #ccc;
+                            border-radius: 4px;
+                            box-sizing: border-box;
+                            background-color: hsl(153, 59, 50);
+                            color: white;
+                        }
+                    }
+                    .terms-services {
+                        display: flex;
+                        justify-content: center;
+                        p {
+                            font-size: 0.75em;
+                            .red-text {
+                                font-weight: 600;
+                                color: hsl(358, 74, 80);
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.container {
+  margin: 0 10% 0 10%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+body .background {
+  background-color: #ff7a7a;
+  background-image: url("../images/bg-intro-desktop.png");
+  min-height: 100vh;
+}
+body .background .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+body .background .grid .description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fffaff;
+}
+body .background .grid .description h1 {
+  padding-bottom: 1em;
+}
+body .background .grid .sign-up-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .background .grid .sign-up-form .try-free-button {
+  background-color: #5d54a3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+body .background .grid .sign-up-form .form-background {
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  margin: 20px;
+  border: none;
+  display: inline-block;
+}
+body .background .grid .sign-up-form .form-background form {
+  margin: 1em;
+}
+body .background .grid .sign-up-form .form-background form .input input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+body .background .grid .sign-up-form .form-background form input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #34cb87;
+  color: white;
+}
+body .background .grid .sign-up-form .form-background .terms-services {
+  display: flex;
+  justify-content: center;
+}
+body .background .grid .sign-up-form .form-background .terms-services p {
+  font-size: 0.75em;
+}
+body .background .grid .sign-up-form .form-background .terms-services p .red-text {
+  font-weight: 600;
+  color: #f2a6a9;
+  text-decoration: none;
+}
